@@ -1,4 +1,9 @@
 <template>
+  <div class="p-3 pb-0 card-header">
+    <h6>{{ this.$store.state.isRTL ? 'درآمد ارزی' : 'Incomes'}}</h6>
+    <!-- eslint-disable vue/no-v-html -->
+    <p v-if="description" class="text-sm" v-html="description" />
+  </div>
   <div class="py-3 mb-3 border-radius-lg pe-1" :class="`bg-gradient-${color}`">
     <div class="chart">
       <canvas :id="id" class="chart-canvas" height="170"></canvas>
@@ -28,11 +33,11 @@
           >
             <font-awesome-icon
               :icon="component"
-              size="xs"
+              size="m"
               :style="{ color: 'white' }"
             />
           </div>
-          <p class="mt-1 mb-0 text-xs font-weight-bold">{{ label }}</p>
+          <p class="mb-0 text-xs font-weight-bold">{{ label }}</p>
         </div>
         <h4 class="font-weight-bolder">{{ content }}</h4>
         <div class="progress w-75">

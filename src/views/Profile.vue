@@ -23,8 +23,8 @@
         </div>
         <div class="col-auto my-auto">
           <div class="h-100">
-            <h5 class="mb-1">Alec Thompson</h5>
-            <p class="mb-0 text-sm font-weight-bold">CEO / Co-Founder</p>
+            <h5 class="mb-1">نوید بخشیانی</h5>
+            <p class="mb-0 text-sm font-weight-bold">وضعیت کاربر : بازرگان</p>
           </div>
         </div>
         <div
@@ -84,7 +84,7 @@
                       </g>
                     </g>
                   </svg>
-                  <span class="ms-1">App</span>
+                  <span class="ms-1">ناحیه کاربری</span>
                 </a>
               </li>
               <li class="nav-item">
@@ -132,7 +132,7 @@
                       </g>
                     </g>
                   </svg>
-                  <span class="ms-1">Messages</span>
+                  <span class="ms-1">پیام ها</span>
                 </a>
               </li>
               <li class="nav-item">
@@ -185,7 +185,7 @@
                       </g>
                     </g>
                   </svg>
-                  <span class="ms-1">Settings</span>
+                  <span class="ms-1">تنظیمات پروفایل</span>
                 </a>
               </li>
             </ul>
@@ -199,11 +199,11 @@
       <div class="col-12 col-md-6 col-xl-4">
         <div class="card h-100">
           <div class="p-3 pb-0 card-header">
-            <h6 class="mb-0">Platform Settings</h6>
+            <h6 class="mb-0">تنظیمات اولیه</h6>
           </div>
           <div class="p-3 card-body">
             <h6 class="text-xs text-uppercase text-body font-weight-bolder">
-              Account
+              اکانت
             </h6>
             <ul class="list-group">
               <li class="px-0 border-0 list-group-item">
@@ -213,7 +213,7 @@
                   class="ps-0 ms-auto"
                   label-class="mb-0 text-body ms-3 text-truncate w-80"
                   checked
-                  >Email me when someone follows me</soft-switch
+                  >نیاز به احراز هویت</soft-switch
                 >
               </li>
               <li class="px-0 border-0 list-group-item">
@@ -222,7 +222,7 @@
                   name="Email"
                   label-class="mb-0 text-body ms-3 text-truncate w-80"
                   class="ps-0 ms-auto"
-                  >Email me when someone answers on my post</soft-switch
+                  >اطلاع رسانی با ایمیل</soft-switch
                 >
               </li>
 
@@ -233,14 +233,14 @@
                   label-class="mb-0 text-body ms-3 text-truncate w-80"
                   class="ps-0 ms-auto"
                   checked
-                  >Email me when someone mentions me</soft-switch
+                  >اطلاع رسانی با شماره تلفن</soft-switch
                 >
               </li>
             </ul>
             <h6
               class="mt-4 text-xs text-uppercase text-body font-weight-bolder"
             >
-              Application
+              برنامه های کاربردی
             </h6>
             <ul class="list-group">
               <li class="px-0 border-0 list-group-item">
@@ -249,7 +249,7 @@
                   name="Project Launch"
                   class="ps-0 ms-auto"
                   label-class="mb-0 text-body ms-3 text-truncate w-80"
-                  >New launches and projects</soft-switch
+                  >Google Authenticator</soft-switch
                 >
               </li>
               <li class="px-0 border-0 list-group-item">
@@ -259,7 +259,7 @@
                   class="ps-0 ms-auto"
                   label-class="mb-0 text-body ms-3 text-truncate w-80"
                   checked
-                  >Monthly product updates</soft-switch
+                  >داشبورد</soft-switch
                 >
               </li>
               <li class="px-0 pb-0 border-0 list-group-item">
@@ -268,7 +268,7 @@
                   name="Newsletter"
                   class="ps-0 ms-auto"
                   label-class="mb-0 text-body ms-3 text-truncate w-80"
-                  >Subscribe to newsletter</soft-switch
+                  >خبرنامه</soft-switch
                 >
               </li>
             </ul>
@@ -277,13 +277,13 @@
       </div>
       <div class="mt-4 col-12 col-md-6 col-xl-4 mt-md-0">
         <profile-info-card
-          title="Profile Information"
-          description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+          title="اطلاعات کاربری"
+          description="نوید بخشیانی ، بازرگان و صادرکننده محصولات کشاورزی"
           :info="{
-            fullName: 'Alec M. Thompson',
-            mobile: '(44) 123 1234 123',
+            fullName: 'نوید بخشیانی',
+            mobile: '0913372187',
             email: 'alecthompson@mail.com',
-            location: 'USA',
+            location: 'ایران',
           }"
           :social="[
             {
@@ -308,122 +308,86 @@
       <div class="mt-4 col-12 col-xl-4 mt-xl-0">
         <div class="card h-100">
           <div class="p-3 pb-0 card-header">
-            <h6 class="mb-0">Conversations</h6>
+            <h6 class="mb-0">کسب و کار های مورد علاقه</h6>
           </div>
           <div class="p-3 card-body">
             <ul class="list-group">
               <li
                 class="px-0 mb-2 border-0 list-group-item d-flex align-items-center"
               >
-                <soft-avatar
-                  class="me-3"
-                  :img="sophie"
-                  alt="kal"
-                  border-radius="lg"
-                  shadow="regular"
-                />
                 <div
                   class="d-flex align-items-start flex-column justify-content-center"
                 >
-                  <h6 class="mb-0 text-sm">Sophie B.</h6>
-                  <p class="mb-0 text-xs">Hi! I need more information..</p>
+                  <h6 class="mb-0 text-sm">سنگ امینی</h6>
+                  <p class="mb-0 text-xs">صنایع سنگ امینی</p>
                 </div>
                 <a
                   class="mb-0 btn btn-link pe-3 ps-0 ms-auto"
                   href="javascript:;"
-                  >Reply</a
+                  >پیام</a
                 >
               </li>
               <li
                 class="px-0 mb-2 border-0 list-group-item d-flex align-items-center"
               >
-                <soft-avatar
-                  class="me-3"
-                  :img="marie"
-                  alt="kal"
-                  border-radius="lg"
-                  shadow="regular"
-                />
                 <div
                   class="d-flex align-items-start flex-column justify-content-center"
                 >
-                  <h6 class="mb-0 text-sm">Anne Marie</h6>
-                  <p class="mb-0 text-xs">Awesome work, can you..</p>
+                  <h6 class="mb-0 text-sm">صادرات سورین</h6>
+                  <p class="mb-0 text-xs">کمک به صادرات محصولات شما ...</p>
                 </div>
                 <a
                   class="mb-0 btn btn-link pe-3 ps-0 ms-auto"
                   href="javascript:;"
-                  >Reply</a
+                  >پیام</a
                 >
               </li>
               <li
                 class="px-0 mb-2 border-0 list-group-item d-flex align-items-center"
               >
-                <soft-avatar
-                  class="me-3"
-                  :img="ivana"
-                  alt="kal"
-                  border-radius="lg"
-                  shadow="regular"
-                />
                 <div
                   class="d-flex align-items-start flex-column justify-content-center"
                 >
-                  <h6 class="mb-0 text-sm">Ivanna</h6>
-                  <p class="mb-0 text-xs">About files I can..</p>
+                  <h6 class="mb-0 text-sm">ایران کشاورز</h6>
+                  <p class="mb-0 text-xs">پیشرو در صنعت کشاورزی</p>
                 </div>
                 <a
                   class="mb-0 btn btn-link pe-3 ps-0 ms-auto"
                   href="javascript:;"
-                  >Reply</a
+                  >پیام</a
                 >
               </li>
               <li
                 class="px-0 mb-2 border-0 list-group-item d-flex align-items-center"
               >
-                <soft-avatar
-                  class="me-3"
-                  :img="peterson"
-                  alt="kal"
-                  border-radius="lg"
-                  shadow="regular"
-                />
                 <div
                   class="d-flex align-items-start flex-column justify-content-center"
                 >
-                  <h6 class="mb-0 text-sm">Peterson</h6>
-                  <p class="mb-0 text-xs">Have a great afternoon..</p>
+                  <h6 class="mb-0 text-sm">تهران قطعه</h6>
+                  <p class="mb-0 text-xs">صادرکننده قطعات برق</p>
                 </div>
                 <a
                   class="mb-0 btn btn-link pe-3 ps-0 ms-auto"
                   href="javascript:;"
-                  >Reply</a
+                  >پیام</a
                 >
               </li>
               <li
                 class="px-0 border-0 list-group-item d-flex align-items-center"
               >
-                <soft-avatar
-                  class="me-3"
-                  :img="nick"
-                  alt="kal"
-                  border-radius="lg"
-                  shadow="regular"
-                />
                 <div
                   class="d-flex align-items-start flex-column justify-content-center"
                 >
-                  <h6 class="mb-0 text-sm">Nick Daniel</h6>
-                  <p class="mb-0 text-xs">Hi! I need more information..</p>
+                  <h6 class="mb-0 text-sm">ایران نژاد فروت</h6>
+                  <p class="mb-0 text-xs">بازرگانی میوه ایران نژاد</p>
                 </div>
                 <a
                   class="mb-0 btn btn-link pe-3 ps-0 ms-auto"
                   href="javascript:;"
-                  >Reply</a
+                  >پیام</a
                 >
               </li>
             </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -431,101 +395,8 @@
       <div class="col-12">
         <div class="mb-4 card">
           <div class="p-3 pb-0 card-header">
-            <h6 class="mb-1">Projects</h6>
-            <p class="text-sm">Architects design houses</p>
-          </div>
-          <div class="p-3 card-body">
-            <div class="row">
-              <default-project-card
-                title="Modern"
-                :image="img1"
-                label="Project #2"
-                description="As Uber works through a huge amount of internal
-                management turmoil."
-                :authors="[
-                  {
-                    image: team1,
-                    name: 'Elena Morison',
-                  },
-                  {
-                    image: team2,
-                    name: 'Ryan Milly',
-                  },
-                  {
-                    image: team3,
-                    name: 'Nick Daniel',
-                  },
-                  {
-                    image: team4,
-                    name: 'Peterson',
-                  },
-                ]"
-                :action="{
-                  color: 'success',
-                  label: 'View Project',
-                }"
-              />
-
-              <default-project-card
-                title="Scandinavian"
-                :image="img2"
-                label="Project #1"
-                description="Music is something that every person has his or her own
-                      specific opinion about."
-                :authors="[
-                  {
-                    image: team3,
-                    name: 'Nick Daniel',
-                  },
-                  {
-                    image: team4,
-                    name: 'Peterson',
-                  },
-                  {
-                    image: team1,
-                    name: 'Elena Morison',
-                  },
-                  {
-                    image: team2,
-                    name: 'Ryan Milly',
-                  },
-                ]"
-                :action="{
-                  color: 'success',
-                  label: 'View Project',
-                }"
-              />
-
-              <default-project-card
-                title="Minimalist"
-                :image="img3"
-                label="Project #3"
-                description="Different people have different taste, and various types
-                      of music."
-                :authors="[
-                  {
-                    image: team4,
-                    name: 'Peterson',
-                  },
-                  {
-                    image: team3,
-                    name: 'Nick Daniel',
-                  },
-                  {
-                    image: team1,
-                    name: 'Elena Morison',
-                  },
-                  {
-                    image: team2,
-                    name: 'Ryan Milly',
-                  },
-                ]"
-                :action="{
-                  color: 'success',
-                  label: 'View Project',
-                }"
-              />
-
+            <h6 class="mb-1">پروژه ها</h6>
+            <p class="text-sm">کسب و کاری جدید ایجاد کنید</p>
               <div class="mb-4 col-xl-3 col-md-6 mb-xl-0">
                 <place-holder-card
                   :title="{ text: 'New project', variant: 'h5' }"
@@ -542,9 +413,6 @@
 <script>
 import SoftSwitch from "@/components/SoftSwitch.vue";
 import ProfileInfoCard from "./components/ProfileInfoCard.vue";
-import SoftAvatar from "@/components/SoftAvatar.vue";
-import sophie from "@/assets/img/kal-visuals-square.jpg";
-import marie from "@/assets/img/marie.jpg";
 import ivana from "@/assets/img/ivana-square.jpg";
 import peterson from "@/assets/img/team-4.jpg";
 import nick from "@/assets/img/team-3.jpg";
@@ -560,7 +428,6 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import DefaultProjectCard from "./components/DefaultProjectCard.vue";
 import PlaceHolderCard from "@/examples/Cards/PlaceHolderCard.vue";
 import setNavPills from "@/assets/js/nav-pills.js";
 import setTooltip from "@/assets/js/tooltip.js";
@@ -570,15 +437,11 @@ export default {
   components: {
     SoftSwitch,
     ProfileInfoCard,
-    SoftAvatar,
-    DefaultProjectCard,
     PlaceHolderCard,
   },
   data() {
     return {
       showMenu: false,
-      sophie,
-      marie,
       ivana,
       peterson,
       nick,
@@ -600,8 +463,18 @@ export default {
     setNavPills();
     setTooltip(this.$store.state.bootstrap);
   },
+  beforeMount() {
+      this.$store.state.isRTL = true;
+      document.querySelector("html").setAttribute("lang", "ar");
+      document.querySelector("html").setAttribute("dir", "rtl");
+      document.querySelector("#app").classList.add("rtl");
+    },
   beforeUnmount() {
     this.$store.state.isAbsolute = false;
+    this.$store.state.isRTL = false;
+      document.querySelector("html").removeAttribute("lang");
+      document.querySelector("html").removeAttribute("dir");
+      document.querySelector("#app").classList.remove("rtl");
   },
 };
 </script>

@@ -24,7 +24,7 @@
               type="text"
               class="form-control"
               :placeholder="
-                this.$store.state.isRTL ? 'أكتب هنا...' : 'Type here...'
+                this.$store.state.isRTL ? 'جست و جو کنید' : 'Type here...'
               "
             />
           </div>
@@ -41,7 +41,7 @@
                 :class="this.$store.state.isRTL ? 'ms-sm-2' : 'me-sm-1'"
               ></i>
               <span v-if="this.$store.state.isRTL" class="d-sm-inline d-none"
-                >يسجل دخول</span
+                >نوید بخشیانی</span
               >
               <span v-else class="d-sm-inline d-none">Sign In </span>
             </router-link>

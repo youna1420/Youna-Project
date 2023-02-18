@@ -14,9 +14,9 @@
               href="https://www.creative-tim.com"
               class="font-weight-bold"
               target="_blank"
-              >Creative Tim</a
+              >MVP Team</a
             >
-            for a better web.
+            For Hackathon !
           </div>
         </div>
         <div class="col-lg-6">
@@ -28,7 +28,7 @@
                 href="https://www.creative-tim.com"
                 class="nav-link text-muted"
                 target="_blank"
-                >Creative Tim</a
+                ></a
               >
             </li>
             <li class="nav-item">

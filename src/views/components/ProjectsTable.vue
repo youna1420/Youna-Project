@@ -301,5 +301,12 @@ export default {
   components: {
     SoftProgress,
   },
+  data() {
+    return {
+      faTopics: [
+        
+      ]
+    }
+  }
 };
 </script>

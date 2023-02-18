@@ -69,11 +69,10 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="d-flex flex-column h-100">
-                  <p class="mb-1 pt-2 text-bold">Built by developers</p>
-                  <h5 class="font-weight-bolder">Soft UI Dashboard</h5>
+                  <p class="mb-1 pt-2 text-bold">Export Company</p>
+                  <h5 class="font-weight-bolder">Youna Group</h5>
                   <p class="mb-5">
-                    From colors, cards, typography to complex elements, you will
-                    find the full documentation.
+                    Yuna Export Group has started working with the aim of creating jobs and increasing productivity from the potentials of Najaf Abad.
                   </p>
                   <a
                     class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
@@ -121,11 +120,10 @@
             <div class="card-body position-relative z-index-1 p-3 h-100">
               <div class="d-flex flex-column h-100">
                 <h5 class="text-white font-weight-bolder mb-4 pt-2">
-                  Work with the rockets
+                  For Better Future !
                 </h5>
                 <p class="text-white mb-5">
-                  Wealth creation is an evolutionarily recent positive-sum game.
-                  It is all about who take the opportunity first.
+                  Najafabad is a city that has a lot of potential for increasing income and exports .
                 </p>
                 <a
                   class="text-white font-weight-bold ps-1 mb-0 icon-move-left mt-auto"
